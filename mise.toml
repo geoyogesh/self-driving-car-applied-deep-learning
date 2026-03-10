@@ -1,0 +1,7 @@
+[tools]
+python = "3.11"
+uv = "latest"
+
+[env]
+# Adding 'create = true' solves the "no venv found" warning
+_.python.venv = { path = ".venv", create = true }
