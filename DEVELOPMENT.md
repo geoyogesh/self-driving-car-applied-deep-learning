@@ -13,4 +13,5 @@ mise prepare
 
 ```
 uv add opencv-contrib-python
+uv add matplotlib
 ```
